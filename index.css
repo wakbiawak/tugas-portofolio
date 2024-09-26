@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #f3f4f5;
+}
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+.rounded {
+  height: 300px;
+  width: auto;
+  margin-left: -20%;
+  margin-top: 3%;
+}
+@media (max-width: 768px) {
+  .well img{
+    display: none;
+  }
+}
